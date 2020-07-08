@@ -1,0 +1,7 @@
+def fib(num):
+    a = [0, 1]
+    for k in range(num):
+        a.append(a[k] + a[k + 1])
+    print(a)
+
+fib(20)
